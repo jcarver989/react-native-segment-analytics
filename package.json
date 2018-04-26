@@ -1,5 +1,5 @@
 {
-  "name": "react-native-segment-analytics",
+  "name": "@qwill/react-native-segment-analytics",
   "description": "Event traking with Segment IO",
   "version": "0.2.0",
   "homepage": "https://github.com/jcarver989/react-native-segment-analytics.git",
@@ -23,7 +23,7 @@
   "dependencies": {},
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/charlires/react-native-segment-analytics/issues"
+    "url": "https://github.com/jcarver989/react-native-segment-analytics/issues"
   },
   "main": "index.js",
   "scripts": {
