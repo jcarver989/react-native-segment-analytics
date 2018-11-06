@@ -223,6 +223,8 @@
                     "$(inherited)",
                     "$(SRCROOT)/../../react-native/React/**",
                     "$(SRCROOT)/../../../ios/**",
+					"${SYMROOT}",
+					"$(BUILT_PRODUCTS_DIR)"
                 );
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -237,6 +239,8 @@
                     "$(inherited)",
                     "$(SRCROOT)/../../react-native/React/**",
                     "$(SRCROOT)/../../../ios/**",
+                    "${SYMROOT}",
+					"$(BUILT_PRODUCTS_DIR)"
                 );
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
