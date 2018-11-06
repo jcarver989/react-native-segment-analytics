@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SegmentAnalytics'
-  s.version          = '0.1.0'
+  s.version          = '0.2.3'
   s.summary          = 'Segment Analytics library'
 
 # This description is used to generate tags and improve search results.
