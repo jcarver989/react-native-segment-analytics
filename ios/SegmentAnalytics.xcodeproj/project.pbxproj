@@ -220,12 +220,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
-                    "$(inherited)",
-                    "$(SRCROOT)/../../react-native/React/**",
-                    "$(SRCROOT)/../../../ios/**",
+					"$(inherited)",
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../../ios/Pods/**",
 					"${SYMROOT}",
-					"$(BUILT_PRODUCTS_DIR)"
-                );
+					"$(BUILT_PRODUCTS_DIR)",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -236,12 +237,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
-                    "$(inherited)",
-                    "$(SRCROOT)/../../react-native/React/**",
-                    "$(SRCROOT)/../../../ios/**",
-                    "${SYMROOT}",
-					"$(BUILT_PRODUCTS_DIR)"
-                );
+					"$(inherited)",
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../../ios/Pods/**",
+					"${SYMROOT}",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
